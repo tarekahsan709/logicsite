@@ -5,28 +5,27 @@
  */
 
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --custom-color-1: #fdfdfe; /* Very light, almost white */
+  --custom-color-2: #3a36c6; /* Medium dark blue */
+  --custom-color-3: #190248; /* Very dark blue, almost black */
+  --custom-color-4: #264dfb; /* Bright blue */
+  --custom-color-5: #c9cefa; /* Very light lavender */
+  --custom-color-6: #7786e8; /* Soft blue */
+  --custom-color-7: #6539f7; /* Vivid purple */
+  --custom-color-8: #281780; /* Dark purple */
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --custom-color-dark-1: #2b2a4a; /* Darkened version of light almost white */
+  --custom-color-dark-2: #1e1d77; /* Dark blue, slightly more vivid */
+  --custom-color-dark-3: #0f0124; /* Very dark blue, almost black */
+  --custom-color-dark-4: #1c33a1; /* Deeper bright blue */
+  --custom-color-dark-5: #8589b7; /* Muted lavender for dark mode */
+  --custom-color-dark-6: #3f4574; /* Dark soft blue */
+  --custom-color-dark-7: #4324b3; /* Darker vivid purple */
+  --custom-color-dark-8: #1d0f5c; /* Very dark purple */
 }
+
 
 .hero_src-components-Hero-module {
   background: #f3faf8 !important;

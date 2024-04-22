@@ -24,8 +24,7 @@ export default function Hero() {
               Getting started
             </Link>
             <p className="padding-top--md">
-              Available on <strong>amd64</strong>, <strong>arm64</strong>,{" "}
-              <strong>armhf</strong>, and <strong>i386</strong> architectures
+              Available for you 24/7
             </p>
           </div>
           <div className="col col--6">
