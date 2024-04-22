@@ -68,8 +68,8 @@ const config = {
       navbar: {
         title: 'LeaseLogic24',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'LeaseLogic24 Logo',
+          src: 'img/logo.webp',
         },
         items: [
           {to: '/features', label: 'Features', position: 'right'},
