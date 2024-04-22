@@ -52,7 +52,7 @@ export default function Home() {
         <Layout title={siteConfig.title} description={siteConfig.tagLine}>
             <Hero/>
             <main>
-                <Highlights/>
+                <HomepageFeatures/>
             </main>
         </Layout>
     );

@@ -1,39 +1,64 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import styles from './style.module.css';
 
 const FeatureList = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+    {
+        title: 'Tenant Management',
+        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        description: (
+            <>
+                Streamline your leasing process with intuitive tenant management tools. Handle applications, payments, and maintenance requests effortlessly.
+            </>
+        ),
+    },
+    {
+        title: 'Landlord Portal',
+        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        description: (
+            <>
+                Gain comprehensive insights into your properties' performance. Our landlord portal offers real-time data on financials, tenant status, and more.
+            </>
+        ),
+    },
+    {
+        title: 'Market Insights',
+        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        description: (
+            <>
+                Stay ahead of the curve with advanced analytics on market trends. LeaseLogic24 provides you with detailed reports on rental rates and market demands.
+            </>
+        ),
+    },
+    {
+        title: 'Vehicle Management',
+        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        description: (
+            <>
+                Manage parking spaces and related amenities with ease. Our vehicle management system integrates seamlessly into your overall property management strategy.
+            </>
+        ),
+    },
+    {
+        title: 'Online Payments',
+        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        description: (
+            <>
+                Facilitate secure and prompt rent and fee payments online. LeaseLogic24 simplifies transactions, making it easier for tenants and landlords alike.
+            </>
+        ),
+    },
+    {
+        title: 'Maintenance Coordination',
+        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        description: (
+            <>
+                Coordinate repair and maintenance tasks efficiently. Our platform ensures that tenant requests are managed quickly and effectively.
+            </>
+        ),
+    }
 ];
+
 
 function Feature({Svg, title, description}) {
   return (
