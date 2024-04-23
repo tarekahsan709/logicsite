@@ -4,8 +4,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import AboutUs from '@site/src/components/AboutUs';
 import Hero from "@site/src/components/Hero";
-import Highlights from "@site/src/components/Highlights";
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -53,6 +53,7 @@ export default function Home() {
             <Hero/>
             <main>
                 <HomepageFeatures/>
+                <AboutUs/>
             </main>
         </Layout>
     );
