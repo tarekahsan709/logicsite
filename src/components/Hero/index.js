@@ -7,8 +7,8 @@ export default function Hero() {
     return (
         <header className={styles.hero}>
             <div className="container">
-                <div className="row align-items-center">
-                    <div className="col col--6">
+                <div className="row align-items-center justify-content-center">
+                    <div className="col col--7">
                         <div className={styles.heroText}>
                             <h1 className={styles.heroTitle}>
                                 Welcome to <span className={styles.highlight}>LeaseLogic24</span>
@@ -36,11 +36,12 @@ export default function Hero() {
                             </div>
                         </div>
                     </div>
-                    <div className="col col--6">
+                    <div className="col col--5">
                         <div className={styles.heroImage}>
                             <img
                                 src={useBaseUrl("/img/leaseLogicArt.webp")}
                                 alt="LeaseLogic24 Hero"
+                                className={styles.heroImage}
                             />
                         </div>
                     </div>
@@ -49,4 +50,3 @@ export default function Hero() {
         </header>
     );
 }
-
