@@ -3,7 +3,8 @@
   padding: 5rem 0;
   text-align: left;
   align-items: center;
-  background: linear-gradient(120deg, #f0f4f8, #ffffff);
+  /*background: linear-gradient(120deg, #f0f4f8, #ffffff);*/
+  background: ffffff;
   border-bottom: 5px solid #e0e0e0;
 }
 

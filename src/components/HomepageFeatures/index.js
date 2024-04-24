@@ -4,56 +4,43 @@ import styles from './style.module.css';
 
 const FeatureList = [
     {
-        title: 'Tenant Management',
-        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        title: 'Comprehensive Tenant Management',
+        Svg: require('@site/static/img/tm.svg').default,
         description: (
             <>
-                Streamline your leasing process with intuitive tenant management tools. Handle applications, payments, and maintenance requests effortlessly.
+                Optimize your leasing process with tools designed for handling applications, payments, and maintenance
+                requests effortlessly. Perfect for landlords looking to streamline their operations and improve tenant
+                satisfaction.
             </>
         ),
     },
     {
-        title: 'Landlord Portal',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        title: 'Dynamic Landlord Dashboard',
+        Svg: require('@site/static/img/ll.svg').default,
         description: (
             <>
-                Gain comprehensive insights into your properties' performance. Our landlord portal offers real-time data on financials, tenant status, and more.
+                Monitor your property's performance with our intuitive dashboard. Gain instant access to tenant
+                details, financials, and operational metrics, empowering you to make data-driven decisions.
             </>
         ),
     },
     {
-        title: 'Market Insights',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        title: 'Customizable Rent Lease Creation',
+        Svg: require('@site/static/img/lease.svg').default,
         description: (
             <>
-                Stay ahead of the curve with advanced analytics on market trends. LeaseLogic24 provides you with detailed reports on rental rates and market demands.
+                Tailor your rent agreements using customizable templates to meet specific needs. Enhance efficiency
+                with automated lease generation, ensuring legal compliance and saving time.
             </>
         ),
     },
     {
-        title: 'Vehicle Management',
-        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        title: 'Efficient Maintenance Coordination',
+        Svg: require('@site/static/img/maintanance.svg').default,
         description: (
             <>
-                Manage parking spaces and related amenities with ease. Our vehicle management system integrates seamlessly into your overall property management strategy.
-            </>
-        ),
-    },
-    {
-        title: 'Online Payments',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-        description: (
-            <>
-                Facilitate secure and prompt rent and fee payments online. LeaseLogic24 simplifies transactions, making it easier for tenants and landlords alike.
-            </>
-        ),
-    },
-    {
-        title: 'Maintenance Coordination',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-        description: (
-            <>
-                Coordinate repair and maintenance tasks efficiently. Our platform ensures that tenant requests are managed quickly and effectively.
+                Address tenant maintenance requests swiftly with our organized system. Ensure quick resolutions to
+                maintenance issues, maintaining property condition and tenant happiness.
             </>
         ),
     }
@@ -61,29 +48,29 @@ const FeatureList = [
 
 
 function Feature({Svg, title, description}) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
+    return (
+        <div className={clsx('col col--6')}>
+            <div className="text--center">
+                <Svg className={styles.featureSvg} role="img"/>
+            </div>
+            <div className="text--center padding-horiz--md">
+                <Heading as="h3">{title}</Heading>
+                <p>{description}</p>
+            </div>
+        </div>
+    );
 }
 
 export default function HomepageFeatures() {
-  return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+    return (
+        <section className={styles.features}>
+            <div className="container">
+                <div className="row">
+                    {FeatureList.map((props, idx) => (
+                        <Feature key={idx} {...props} />
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
 }

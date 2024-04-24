@@ -1,37 +1,42 @@
-import React from "react";
-import styles from "./style.module.css";
+import React from 'react';
+import TeamMemberCard from "@site/src/components/TeamMemberCard";
+import styles from './style.module.css';
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function AboutUs() {
     return (
         <section className={styles.aboutUs}>
             <div className="container">
+                <h3>About Us</h3>
+                <p>
+                    At LeaseLogic24, we are revolutionizing real estate management with cutting-edge solutions
+                    designed to enhance every aspect of property management. Founded in [Year], we have consistently
+                    led the way in simplifying complex processes, improving profitability for property owners,
+                    and ensuring smooth operations for managers.
+                </p>
+                <p>
+                    Our comprehensive platform integrates tools for efficient tenant interaction, streamlined
+                    rent collection, precise lease documentation, and effective maintenance management. We
+                    are committed to delivering a user-friendly interface equipped with advanced technological
+                    features to support these functions.
+                </p>
+                <h3>Leadership Team</h3>
                 <div className="row">
-                    <h2>About LeaseLogic24</h2>
-                    <p>
-                        At LeaseLogic24, we are committed to revolutionizing the property management industry by
-                        providing
-                        innovative, user-friendly solutions that streamline the day-to-day operations of property
-                        managers
-                        and
-                        landlords. Founded in [Year], we have consistently focused on delivering high-quality services
-                        that
-                        incorporate the latest technological advancements.
-                    </p>
-                    <p>
-                        Our mission is to empower real estate professionals to achieve excellence in property management
-                        through
-                        our comprehensive suite of tools that facilitate tenant management, financial tracking,
-                        maintenance
-                        coordination, and market analysis. With a dedicated team of experts in real estate, technology,
-                        and
-                        customer service, LeaseLogic24 is your trusted partner in property management.
-                    </p>
-                    <h3>Meet Our Team</h3>
-                    <ul>
-                        <li><strong>John Doe</strong> - CEO & Founder</li>
-                        <li><strong>Jane Smith</strong> - CTO & Co-Founder</li>
-                        <li><strong>Emily Johnson</strong> - Head of Customer Success</li>
-                    </ul>
+                    <TeamMemberCard
+                        name="Md Rahim Abbas"
+                        title="Chief Executive Officer"
+                        imageUrl={useBaseUrl("/img/profile.jpeg")}
+                    />
+                    <TeamMemberCard
+                        name="Md Mahbub Karim"
+                        title="Chief Technology Officer"
+                        imageUrl={useBaseUrl("/img/profile.jpeg")}
+                    />
+                    <TeamMemberCard
+                        name="Sayed Khatib Ali"
+                        title="Director of Customer Engagement"
+                        imageUrl={useBaseUrl("/img/profile.jpeg")}
+                    />
                 </div>
             </div>
         </section>

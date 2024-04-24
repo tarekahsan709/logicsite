@@ -18,19 +18,18 @@ export default function ContactForm() {
                         <h3 className={styles.contactTitle}>Tell Us How We Can Help</h3>
                         <div className={styles.contactLimitContainer}>
                             <p className={styles.contactDetails}>
-                                IntelAGENT is expressly built for physicians like you. Your feedback consistently helps
-                                us
-                                make the app better.
+                                LeaseLogic24 is dedicated to streamlining real estate management through innovative
+                                solutions. Let us know how we can help you enhance your property management experience.
                             </p>
                         </div>
 
                         <div className={styles.contactRow}>
                             <div className={styles.contactGrid}>
-                                <h5 className={styles.contactSubTitle}>Feel like talking?</h5>
-                                <a href="tel:(647)812-6678">(647)812-6678</a>
+                                <h5 className={styles.contactSubTitle}>Need to speak with us directly?</h5>
+                                <a href="tel:(+880)17-348088">(+880)17-348088</a>
 
 
-                                <h5 className={styles.contactSubTitle}>Questions?</h5>
+                                <h5 className={styles.contactSubTitle}>Have a Questions?</h5>
                                 <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#100;&#097;&#109;&#064;&#105;&#110;&#116;&#101;&#108;&#097;&#103;&#101;&#110;&#116;&#046;&#099;&#097;?&#115;&#117;&#098;&#106;&#101;&#099;&#116;=&#081;&#117;&#101;&#115;&#116;&#105;&#111;&#110;&#032;&#097;&#098;&#111;&#117;&#116;&#032;&#073;&#110;&#116;&#101;&#108;&#065;&#071;&#069;&#078;&#084;"
                                    target="_blank">Email Us</a>
                             </div>

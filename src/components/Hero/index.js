@@ -17,16 +17,16 @@ export default function Hero() {
                                 Simplify Your Real Estate Management
                             </h2>
                             <p className={styles.heroDescription}>
-                                Empower your property management with our 24/7 comprehensive platform. Efficiently
+                                Empower your property management with our <strong>24/7</strong> comprehensive platform. Efficiently
                                 lease, manage, and scale your real estate portfolio with LeaseLogic24.
                             </p>
                             <div className={styles.heroCta}>
-                                <Link
-                                    className="button button--primary button--lg"
-                                    to="/docs/getting-started/introduction"
-                                >
-                                    Get Started
-                                </Link>
+                                {/*<Link*/}
+                                {/*    className="button button--primary button--lg"*/}
+                                {/*    to="/docs/getting-started/introduction"*/}
+                                {/*>*/}
+                                {/*    Get Started*/}
+                                {/*</Link>*/}
                                 <Link
                                     className="button button--secondary button--lg"
                                     to="/features"
@@ -39,7 +39,7 @@ export default function Hero() {
                     <div className="col col--5">
                         <div className={styles.heroImage}>
                             <img
-                                src={useBaseUrl("/img/leaseLogicArt.webp")}
+                                src={useBaseUrl("/img/hm.svg")}
                                 alt="LeaseLogic24 Hero"
                                 className={styles.heroImage}
                             />
