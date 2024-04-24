@@ -2,7 +2,7 @@ import styles from "./style.module.css";
 
 export default function Pricing() {
     return (
-        <div className={styles.pricingContainer} id="pricing">
+        <div className={styles.pricingContainer} id="price">
             <div className={styles.background}>
                 <div className={styles.container}>
                     <div className={styles.panel}>
