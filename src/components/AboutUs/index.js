@@ -5,7 +5,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function AboutUs() {
     return (
-        <section className={styles.aboutUs}>
+        <section className={styles.aboutUs} id="about-us">
             <div className="container">
                 <h3>About Us</h3>
                 <p>

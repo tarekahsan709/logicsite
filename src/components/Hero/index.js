@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./style.module.css";
+import SmoothScrollLink from '@site/src/components/SmoothScrollLink';
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
@@ -17,22 +18,23 @@ export default function Hero() {
                                 Simplify Your Real Estate Management
                             </h2>
                             <p className={styles.heroDescription}>
-                                Empower your property management with our <strong>24/7</strong> comprehensive platform. Efficiently
+                                Empower your property management with our <strong>24/7</strong> comprehensive platform.
+                                Efficiently
                                 lease, manage, and scale your real estate portfolio with LeaseLogic24.
                             </p>
                             <div className={styles.heroCta}>
-                                {/*<Link*/}
-                                {/*    className="button button--primary button--lg"*/}
-                                {/*    to="/docs/getting-started/introduction"*/}
-                                {/*>*/}
-                                {/*    Get Started*/}
-                                {/*</Link>*/}
-                                <Link
+                                <SmoothScrollLink
+                                    className="button button--primary button--lg"
+                                    to="/#price"
+                                >
+                                    Get Started
+                                </SmoothScrollLink>
+                                <SmoothScrollLink
                                     className="button button--secondary button--lg"
-                                    to="/features"
+                                    to="/#features"
                                 >
                                     Learn More
-                                </Link>
+                                </SmoothScrollLink>
                             </div>
                         </div>
                     </div>

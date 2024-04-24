@@ -25,8 +25,8 @@ export default function ContactForm() {
 
                         <div className={styles.contactRow}>
                             <div className={styles.contactGrid}>
-                                <h5 className={styles.contactSubTitle}>Need to speak with us directly?</h5>
-                                <a href="tel:(+880)17-348088">(+880)17-348088</a>
+                                {/*<h5 className={styles.contactSubTitle}>Need to speak with us directly?</h5>*/}
+                                {/*<a href="tel:(+880)17-348088">(+880)17-348088</a>*/}
 
 
                                 <h5 className={styles.contactSubTitle}>Have a Questions?</h5>

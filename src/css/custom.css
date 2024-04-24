@@ -30,3 +30,7 @@
 .hero_src-components-Hero-module {
   background: #f3faf8 !important;
 }
+
+.navbar__link--active {
+  color: var(--ifm-navbar-link-color);
+}
