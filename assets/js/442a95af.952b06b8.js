@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkleaselogic_24=self.webpackChunkleaselogic_24||[]).push([[3251],{9110:(e,t,i)=>{i.r(t),i.d(t,{default:()=>l});var s=i(4586),c=i(541),n=i(4848);function l(){const{siteConfig:e}=(0,s.A)();return(0,n.jsx)(c.A,{title:e.title,description:e.tagLine,children:(0,n.jsx)("p",{children:"This is the contact us page"})})}}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkleaselogic_24=self.webpackChunkleaselogic_24||[]).push([[9468],{2294:(e,i,s)=>{s.r(i),s.d(i,{default:()=>n});var t=s(4586),c=s(541),l=s(4848);function n(){const{siteConfig:e}=(0,t.A)();return(0,l.jsx)(c.A,{title:e.title,description:e.tagLine,children:(0,l.jsx)("p",{children:"This is the price page"})})}}}]);
