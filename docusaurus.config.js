@@ -13,8 +13,8 @@ const config = {
     favicon: 'img/favicon.ico',
     url: 'https://leaselogic24.com',
     baseUrl: '/',
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'tarekahsan709',
+    projectName: 'sitelogic',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     i18n: {
